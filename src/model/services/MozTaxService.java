@@ -1,6 +1,6 @@
 package model.services;
 
-public class MozTaxService {
+public class MozTaxService implements TaxService{
 	
 	public double tax(double amount) {
 		if(amount <= 100.0) {
